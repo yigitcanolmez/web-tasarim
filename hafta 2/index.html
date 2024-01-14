@@ -5,22 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ana Sayfa</title>
+
+    <style>
+        .container{
+            max-width: 1200px;
+            margin: 0 auto; /*yukarıdan aşağıdan 0 soldan sağdan auto*/
+        }
+        header{
+            background-color: lightblue;
+            padding: 1rem;
+        }
+        section{
+            background-color: lightyellow;
+            padding: 1rem;
+        }
+        footer{
+            background-color: lightcyan;
+            padding: 1rem;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <nav>
             <a href="index.html">Ana Sayfa</a>
             <a href="hakkimda.html">Hakkımda</a>
         </nav>
     </header>
-    <section>
+    <section class="container">
         <h1>Ana Sayfa</h1>
         <a href="hakkimda.html">Hakkımda</a>
 
         <p>Ana sayfaya hoşgeldiniz...</p>
     </section>
-    <footer>
+    <footer class="container">
         <p>Tasarım ve Kodlama : Yiğitcan Ölmez</p>
     </footer>
 
