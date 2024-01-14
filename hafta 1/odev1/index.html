@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown to Launch</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(90deg, #FFC107, #FFA000);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .countdown-container {
+            background: linear-gradient(90deg, #FF9800, #FF5722);
+            box-shadow: 0px 0px 24px #FFA000;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .coming-soon-text {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .countdown {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .countdown span {
+            color: #FFEB3B;
+        }
+    </style>
+</head>
+<body>
+    <div class="countdown-container">
+        <div class="coming-soon-text">We Are Coming Soon</div>
+        <div class="countdown" id="countdown"></div>
+    </div>
+
+    <script>
+        // Set the launch date (February 14)
+        const launchDate = new Date("2024-02-14T00:00:00Z").getTime();
+
+        // Update the countdown every second
+        setInterval(() => {
+            // Get the current date and time
+            const currentDate = new Date().getTime();
+
+            // Calculate the remaining time
+            const remainingTime = launchDate - currentDate;
+
+            // Calculate days, hours, minutes, and seconds
+            const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+
+            // Display the countdown
+            document.getElementById("countdown").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+        }, 1000);
+    </script>
+</body>
+</html>

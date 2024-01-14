@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Köpekler</title>
+</head>
+
+<body style="background-color: bisque;">
+    <h1 style="text-align: center;;">Köpek Cinsleri</h1>
+    <p style="color: grey;text-align: center;"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate eum
+        id ipsum!
+        Inventore aspernatur tenetur praesentium tempora pariatur reprehenderit officiis sed, quidem nihil vel sunt quo,
+        fugiat blanditiis iusto atque beatae cum ducimus, recusandae dolore? Unde deserunt voluptas quia, recusandae
+        ipsam esse officia? Explicabo maxime eos, sequi nulla nostrum repellendus.</p>
+    <div style="text-align: center">
+        <h3> <a href="index.html#cins1" style="color: yellow;">Cins 1</a> </h3>
+        <h3> <a href="index.html#cins2" style="color: yellow;">Cins 2</a> </h3>
+        <h3> <a href="index.html#cins3" style="color: yellow;">Cins 3</a> </h3>
+    </div>
+
+
+    <div style="text-align: center;">
+        <h2 id="cins1" style="color:salmon;">Köpek Cinsi 1</h2>
+        <img src="https://lipsum.app/id/29/250x200">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis sapiente iure asperiores iste deleniti
+            sed, corporis hic modi magnam impedit. </p>
+    </div>
+
+    <div style="text-align: center;">
+        <h2 id="cins2" style="color:salmon; text-align: center;">Köpek Cinsi 2</h2>
+        <img src="https://lipsum.app/id/49/250x200">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis expedita dignissimos similique quo
+            error
+            cum neque consequuntur animi magnam deserunt, totam, eos assumenda repudiandae? Tempore, eius impedit maxime
+            excepturi voluptas labore obcaecati neque architecto magnam deleniti ratione non illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quae eligendi nemo quo dolores! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit sequi ex dolorem sit recusandae culpa vitae accusamus accusantium corrupti deleniti excepturi modi expedita, laborum consectetur doloribus enim libero nesciunt quo velit maiores earum illo omnis, dolores nemo! Eos repudiandae consectetur officia beatae voluptatem modi! Harum assumenda quos deserunt vitae iusto?
+        </p>
+    </div>
+
+    <div style="text-align: center;">
+        <h2 id="cins3" style="color:salmon; text-align: center;">Köpek Cinsi 3</h2>
+        <img src="https://lipsum.app/id/79/250x200">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolor perferendis consequuntur illum totam
+            enim, unde explicabo aperiam. Cupiditate ut magni odio, asperiores enim dolor mollitia voluptatum
+            perferendis voluptatem earum quisquam exercitationem quaerat soluta temporibus consectetur omnis distinctio
+            repellendus a officiis, sit vero. Amet, sapiente, porro, numquam corporis non velit reiciendis et laborum
+            nihil optio minima architecto! Explicabo, qui sed doloribus, et ipsa porro quibusdam non possimus sit vitae Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat commodi, totam eius et veritatis dolores explicabo beatae eligendi expedita omnis quibusdam ratione animi impedit saepe quam minus temporibus! Nisi at vitae tenetur assumenda accusantium recusandae voluptas. Quia iure repellat facilis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, dolorum ratione veniam optio voluptatem earum architecto? Necessitatibus ipsam voluptates ut nulla sapiente aliquam veniam est illo, molestias, odit quisquam. Eligendi quam sunt voluptatibus sed magnam, cum ex obcaecati dolor inventore.
+            optio.</p>
+    </div>
+
+</body>
+
+</html>
