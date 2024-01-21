@@ -2,7 +2,7 @@
     --pembe: rgb(246, 122, 143);
     --beyaz : white;
     --siyah : black;
-    --siyah-light : rgb(165, 164, 164);
+    --siyah-light : rgb(227, 227, 227);
 
 }
 
@@ -19,4 +19,9 @@ a:hover{
 }
 a{
    color: var(--siyah);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
