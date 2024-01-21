@@ -1,0 +1,22 @@
+:root{
+    --pembe: rgb(246, 122, 143);
+    --beyaz : white;
+    --siyah : black;
+    --siyah-light : rgb(165, 164, 164);
+
+}
+
+body{
+    background-color: var(--siyah-light);
+}
+
+.aktif-menu {
+    background-color: var(--pembe);
+}
+
+a:hover{
+    background-color: var(--pembe);
+}
+a{
+   color: var(--siyah);
+}
