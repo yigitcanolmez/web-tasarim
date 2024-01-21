@@ -1,9 +1,9 @@
 :root{
     --pembe: rgb(246, 122, 143);
+    --pembe-light:rgb(254, 194, 204);
     --beyaz : white;
     --siyah : black;
     --siyah-light : rgb(227, 227, 227);
-
 }
 
 body{
@@ -24,4 +24,18 @@ a{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+header{
+    background-color: var(--pembe-light);
+    padding: 1rem;
+}
+
+main{
+    background-color: var(--beyaz);
+    padding: 1rem;
+}
+footer{
+    background-color: var(--pembe);
+    padding: 1rem;
 }
