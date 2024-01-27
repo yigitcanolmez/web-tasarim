@@ -73,8 +73,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #bd5d38;
-  --bs-link-hover-color: #974a2d;
+  --bs-link-color: #918a87;
+  --bs-link-hover-color: #3c383796;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -10937,7 +10937,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #bd5d38;
+  background-color: powderblue;
 }
 
 .dev-icons {
