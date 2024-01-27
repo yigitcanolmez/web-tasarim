@@ -1,0 +1,17 @@
+body{
+    max-width: 1200px;
+    margin:0 auto;
+    background-color: wheat;
+}
+.comment{
+    color: rgb(231, 231, 231);
+    background-color: rgb(126, 114, 94);
+    padding: 1em;
+    font-size: x-large;
+    font-weight: 0;
+    padding: 0.5em;
+}
+.commentDate{
+    font-size: large;
+    margin-block-start: -1.5rem !important;
+}

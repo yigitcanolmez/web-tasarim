@@ -1,0 +1,11 @@
+th{
+    color: red;
+    font-size: xx-large;
+}
+body{
+    background-color: lightgrey;
+}
+td,th,tr{
+    border: 1px solid black;
+    padding: 1rem;
+}
