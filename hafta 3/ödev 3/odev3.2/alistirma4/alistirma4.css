@@ -1,0 +1,16 @@
+h1{
+    color: red;
+}
+.deneme, .deneme2{
+    font-weight: bold;
+    text-decoration: underline green ;
+}
+.deneme2{
+    font-style: italic;
+}
+.sub-list{
+    color: pink;
+}
+body{
+    border:3px solid black;
+}

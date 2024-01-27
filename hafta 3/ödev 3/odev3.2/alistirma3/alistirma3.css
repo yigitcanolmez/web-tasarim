@@ -1,0 +1,13 @@
+h1{
+    color: green;
+}
+.Location{
+    color:blue;
+}
+.Topic{
+    color: pink;
+}
+
+th,td,table{
+    border: 1px solid green;
+}
