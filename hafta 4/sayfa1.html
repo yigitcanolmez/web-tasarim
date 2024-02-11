@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayfa 1</title>
+
+    <style>
+        header,
+        section,
+        footer {
+            min-height: 1rem;
+            padding: 1rem;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        header {
+            background-color: lightyellow;
+
+        }
+
+        section {
+            background-color: lightblue;
+        }
+
+        footer {
+            background-color: antiquewhite;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+
+            /* sağdan ve soldan ortalar*/
+        }
+
+        .display-flex {
+            display: flex;
+            gap: 1rem;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 400;
+            font-size: 2rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        nav a:hover {
+            color: lightblue;
+        }
+
+        nav a {
+            color: darkblue;
+        }
+        .aktif-link{
+            text-decoration: underline lightsalmon 1px ;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="container display-flex">
+            <div class="logo">
+                DEV - DESK
+            </div>
+            <nav>
+                <a class="aktif-link" href="index.html" target="_blank">Ana Sayfa</a>
+                <a href="ozellikler.html" target="_blank">Özellikler</a>
+                <a href="satin-al.html" target="_blank">Satın Al</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container">
+        <h1>DEV - DESK</h1>
+        <p>Yenilikçi masamızı tanıttığımız web sitemize hoş geldiniz</p>
+    </section>
+
+    <footer>
+        <div class="container display-flex">
+            <p>Tüm hakları saklıdır</p>
+            <p>Tasarım ve Kodlama : Yiğitcan Ölmez</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

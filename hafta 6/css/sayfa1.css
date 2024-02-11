@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --tema-mavi-acik: rgb(11, 87, 208);
+    --tema-mavi-koyu: rgb(0, 51, 85);
+    --tema-siyah: rgb(40, 41, 42);
+    --tema-beyaz: rgb(236, 243, 254);
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--tema-siyah);
+    color: var(--tema-beyaz);
+    margin: 2rem;
+}
+
+.bolge1 {
+    background-image: url(https://www.google.com/chrome/static/images/shapes-dark.png);
+    border-radius: 1rem;
+    padding: 0 1rem  ; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.bolge1-ust{
+    border-radius: 1rem;  
+    background-color: var(--tema-siyah);
+    padding: 1rem;
+    border-radius: 1rem;
+    transform: translateY(-10px);
+
+}
+
+.bolge1-orta{
+    max-width: 34rem;
+}
+.bolge1-orta h1{
+font-size: 310%;
+font-weight: normal;
+margin: 3rem 0 1rem 0;
+}
+
+.bolge1-orta p{
+    font-size: 120%;
+    margin: 0 0 3rem 0;
+}
+.bolge1-alt{
+   /* position: relative;
+    bottom: 1px;*/
+    transform: translateY(36px);
+
+    background-color: var(--tema-siyah);
+    border-radius: 50%;
+    border: 5px solid var(--tema-siyah); /* Çerçeve kalınlığı ve rengi */
+}
