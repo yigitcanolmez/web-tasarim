@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
 * {
     box-sizing: border-box;
 }
@@ -7,6 +9,8 @@
     --tema-mavi-koyu: rgb(0, 51, 85);
     --tema-siyah: rgb(40, 41, 42);
     --tema-beyaz: rgb(236, 243, 254);
+    --tema-mavi-cok-acik: #c2e7ff;
+    --tema-mavi-az-koyu: #004a77;
 }
 
 body {
@@ -19,14 +23,15 @@ body {
 .bolge1 {
     background-image: url(https://www.google.com/chrome/static/images/shapes-dark.png);
     border-radius: 1rem;
-    padding: 0 1rem  ; 
+    padding: 0 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
-.bolge1-ust{
-    border-radius: 1rem;  
+
+.bolge1-ust {
+    border-radius: 1rem;
     background-color: var(--tema-siyah);
     padding: 1rem;
     border-radius: 1rem;
@@ -34,25 +39,78 @@ body {
 
 }
 
-.bolge1-orta{
+.bolge1-orta {
     max-width: 34rem;
 }
-.bolge1-orta h1{
-font-size: 310%;
-font-weight: normal;
-margin: 3rem 0 1rem 0;
+
+.bolge1-orta h1 {
+    font-size: 310%;
+    font-weight: normal;
+    margin: 3rem 0 1rem 0;
 }
 
-.bolge1-orta p{
+.bolge1-orta p {
     font-size: 120%;
     margin: 0 0 3rem 0;
 }
-.bolge1-alt{
-   /* position: relative;
+
+.bolge1-alt img {
+    display: block;
+    width: 100%;
+}
+
+.bolge1-alt {
+    /* position: relative;
     bottom: 1px;*/
     transform: translateY(36px);
 
     background-color: var(--tema-siyah);
     border-radius: 50%;
-    border: 5px solid var(--tema-siyah); /* Çerçeve kalınlığı ve rengi */
+    border: 5px solid var(--tema-siyah);
+    /* Çerçeve kalınlığı ve rengi */
+}
+
+.bolge2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem 2rem;
+}
+
+.bolge2-sol {
+    max-width: 31rem;
+}
+
+.bolge2-sol h1 {
+    font-size: 250%;
+    font-weight: normal;
+    margin: 0.5rem 0;
+}
+
+.bolge2-sol-alt {
+    color: lightgray;
+}
+
+.bolge2-sol-alt p,
+li {
+    padding: 0.3rem;
+}
+
+.bolge2-sol-ust p {
+    background-color: var(--tema-mavi-az-koyu);
+    padding: 0.5rem;
+    max-width: 12rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    color: var(--tema-mavi-cok-acik);
+}
+.bolge2-sag{
+   align-items: center; 
+}
+.bolge2-sag img {
+    max-width: 80%;
+    max-height: 80%;
+    height: auto;
+    border-radius: 1rem;
+    
 }
