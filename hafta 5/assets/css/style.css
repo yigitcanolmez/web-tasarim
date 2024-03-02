@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.bolge1 {
+    background-color: lightblue;
+    width: 350px;
+    height: 300px;
+    padding: 25px;
+    border: 5px dashed lightyellow;
+}

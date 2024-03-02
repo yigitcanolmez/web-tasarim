@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayfa 2b - relative-absolute</title>
+    <style>
+        @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+        .bir-kart {
+            width: 300px;
+            background-color: lightblue;
+            border-radius: 1rem;
+            overflow: hidden; /* bu divin içeriği taşarsa, taşan içerikleri gizle */
+            position: relative;
+        }
+
+        .bir-kart img {
+            width: 100%;
+        }
+
+        .bir-kart .kart-icerik {
+            margin: 0;
+
+            position: absolute;
+
+            /* dikey ve yatay ortalama - flex yoluyla */
+            left: 0; right: 0; top: 0; bottom: 0;
+            /* background-color: rgba(255, 228, 196); */
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .kalp-ikon{
+            position: absolute;
+            right: 1rem;
+            top: 1rem;
+
+            background-color: white;
+            width: 1.2rem;
+            height: 1.2rem;
+            padding: 0.3rem;
+            border-radius: 100%;
+            box-shadow: 3px 3px 9px 0px rgb(0 0 0 / 15%); /* https://box-shadow.dev/ */
+
+            display: none;
+            justify-content: center;
+            align-items: center;
+            
+            transition: 0.3s;
+        }
+
+        .bir-kart:hover .kalp-ikon {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="bir-kart">
+        <img src="https://lipsum.app/id/26/250x200" alt="">
+        <div class="kart-icerik">
+            <h2>Kartalkaya Otelleri</h2>
+            <span>19 otel</span>
+        </div>
+
+        <div class="kalp-ikon">
+            <a href="#">
+                <i class="fa-regular fa-heart"></i>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>

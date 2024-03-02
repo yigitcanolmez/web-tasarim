@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+    --mid-blue:rgb(75, 117, 255);
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.row{
+    display: flex;
+}
+
+.col-2{
+    width: 50%;
+}
+
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+
+h5{
+    font-weight: 400;
+}
+
+h4{
+    font-weight: 500;
+}
+
+input{
+    border-radius: 0.7rem;
+    width: 48%;
+    height:3rem;
+    margin: 0 0.2rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.logo{
+    text-decoration: none;
+    color: black;
+}
+
+.login-btn{
+    color: var(--mid-blue);
+    background-color: white;
+    border: 1px solid var(--mid-blue);
+    width: 10%;
+    height: 3rem;
+    border-radius: 0.7rem;
+    font-size: 12pt;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover{
+    color: white;
+    background-color: var(--mid-blue);
+}
+
+#mail{
+    border: 1px solid rgb(167, 166, 166);
+}
+
+#start-scan{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+#start-scan:hover{
+    background-color: rgb(4, 4, 163);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.section{
+    font-size: 20px;
+    padding: 2rem;
+}
+
+.first{
+    padding-bottom: 0;
+    background-image: radial-gradient(circle at center,rgba(184,51,225,.08) 0,rgba(144,89,255,.08) 37.1%,rgba(91,109,248,.08) 61.4%,rgba(0,144,237,.08) 100%);
+    align-items: center;
+}
+
+.s1-1{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+
+.s1-2{
+    display: flex;
+    justify-content: center;
+}
+
+.second{
+    text-align: center;
+}
+
+.purple{
+    color: rgb(223, 27, 223);
+}
+
+.second{
+    padding: 2rem;
+}
+
+.third{
+    background-color: #f9f9fa;
+    align-items: center;
+    padding: 2rem;
+}
+
+.s3-2{
+    display: flex;
+    justify-content: center;
+}
+
+.s3-1{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.fourth{
+    padding: 2rem;
+    align-items: center;
+}
+
+.s4-1{
+    display: flex;
+    justify-content: center;
+}
+
+.s4-2{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.fifth{
+    justify-content: center;
+    padding: 2rem;
+    background-color: #e7dfff;
+    text-align: center;
+}
+
+.fifth input{
+    width: 40%;
+}
+
+.references{
+    font-weight: 900;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.seventh{
+    text-align: center;
+    background-color: #f9f9fa;
+}
+
+.seventh li{
+    list-style-type: none;
+    text-align: start;
+    margin: 1rem;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.icon{
+    color: #0060df;
+    margin-right: 1rem;
+    fill: currentColor;
+
+}
+
+#sign-up{
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 30%;
+}
+
+#sign-up:hover{
+    background-color: rgb(4, 4, 163);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.accordion-btn{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.show{
+    visibility: visible;
+}
+
+.accordion-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s8-1{
+    text-align: center;
+}
+
+#sss-1, #sss-2, #sss-3{
+    font-size: 17px;
+    font-weight: 300;
+    margin: 1rem;
+}
+
+.nineth input{
+    width: 40%;
+}
+
+.nineth{
+    background-color: #e7dfff;
+    padding: 2rem;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 1rem;
+}
+
+.footer-logo{
+    display: inline;
+    background-color: white;
+    color: black;
+    padding: 0.5rem;
+    font-weight: 900;
+    height: 10%;
+}
+
+.footer-logo:hover{
+    color: #7d52ff;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    text-align: left;
+}
+
+.footer-redirect{
+    display: flex;
+    justify-content: end;
+    margin-left: 2rem;
+}

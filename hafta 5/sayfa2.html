@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayfa 2 - relative-absolute</title>
+    <style>
+        .bir-kart{
+            width: 300px;
+            background-color: lightblue;
+            border-radius: 1rem;
+            overflow: hidden;
+            position: relative;
+        }
+        .bir-kart img{
+            width: 100%;
+            transition: 0.3s;
+            
+        }
+        .bir-kart h2{
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            bottom: 50%;
+            transform: translate(50px, 0);
+        }
+        .bir-kart:hover img{
+            transform: scale(1.3,1.3) ;
+        }
+    </style>
+</head>
+<body>
+    <div class="bir-kart">
+        <img src="https://lipsum.app/id/26/250x200" alt="">
+        <h2>Kartalkaya otelleri</h2>
+        <span>19 otel</span>
+    </div>
+</body>
+</html>
