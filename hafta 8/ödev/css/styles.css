@@ -1,76 +1,103 @@
-* {
-    box-sizing: border-box;
-}
-
-:root {
-    --arka-plan: #020617;
-    --paragraf: #64747c;
-    --basliklar: #e2e8f0;
-    --buton: #e2e8f0;
-    --link: #908bff;
-}
-
-/*https://block.codescandy.com/assets/images/logo/logo.svg sayfa urli */
 
 .container {
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
     width: 100%;
-}
-img{
-    background-color: white;
-    border-radius: 0.5rem;
-}
-button{
+    background-color: #020617;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;}
+
+.sectionFooter {
     color: white;
-    background-color: var(--link);
-    padding: 1rem;
+    display: grid;
+    grid-row: auto;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+    justify-content: center;
+    align-items: start;
+    padding: 2.4rem;
+}
+
+.sectionFooter h3 {
+    margin: 0.6rem;
+}
+
+img {
     border-radius: 1rem;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.logoText {
+    font-size: medium;
+    font-weight: 300;
+    color: #5b6884;
+    flex-direction: column;
 
 }
-.flex-column {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 1rem;
+
+.logoText p {
+    padding-bottom: 3rem;
+    text-overflow: inherit;
+    width: 80%;
+    
 }
-.flex-row {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+
+.inputArea p {
+    padding: 0;
+    margin: 0;
 }
-input{
-    background-color: var(--arka-plan);
+
+.subButton {
+    font-size: medium;
+    padding: 1rem;
+    margin-left: 0.25rem;
+    background-color: #8b3dff;
+    border-radius: 1rem;
+    color: white;
+    border: none;
+}
+
+.subButton:hover {
+    background-color: #8b3dff;
+    color: #fff;
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.inputEmail {
+    background-color: #020617;
     padding: 1rem;
     border-radius: 1rem;
+    color: white;
+
 }
-.flex-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    align-items: center;
-    margin: auto;
-}
+
 ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    color: #5b6884;
 }
 
-.links p {
-
-    color: var(--basliklar);
-}
-.links li{
-    padding: 5px;
-}
-li,
-p {
-    color: var(--paragraf);
+li {
+    margin: 0.75rem auto;
 }
 
-body {
-    background-color: var(--arka-plan);
-    padding: 1rem;
+li:hover {
+    color: white;
+    cursor: pointer;
 }
+
+.lists {
+    display: flex;
+    gap: 2rem;
+}
+
+.lists h3 {
+    padding-bottom: 2rem;
+    margin: 0;
+}
+
+.list {}
