@@ -7,7 +7,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;}
+    min-height: 100vh;
+}
 
 .sectionFooter {
     color: white;
@@ -100,4 +101,28 @@ li:hover {
     margin: 0;
 }
 
-.list {}
+@media only screen and (max-width: 425px) {
+    
+    .sectionFooter {
+        display: flex;
+        flex-direction: column;
+        padding: 2.4rem;
+    }
+    .logoText p{
+       padding-bottom: 1.4rem;
+    
+    }
+    .subButton{
+        margin: 0  0 3rem 0  ;
+    }
+    .inputEmail{
+        margin-bottom: 1rem;
+    }
+    .inputArea h3{
+        margin:1rem 0 ;
+    }
+    .lists {
+        display: grid;
+        gap: 2rem;
+    }
+}
